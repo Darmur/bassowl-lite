@@ -55,8 +55,7 @@ LED D5 should turn on if BassOwl released firmware is loaded properly.
 Closing JP1 with a jumper will enable SPI mode for updating all available parameters, including GPIOs configuration, microphone gain and Bluetooth name. Yes, you can set the one you prefer, very effective for a personalised gift!
 
 For programming CSRA64215 modules, a proprietary tool from CSR is needed: **CSRA64xxx and CSRA63xxx Tools v2**
-If you have problems updating a module with ROM v15, please have a look to this thread on [diyaudio]
-(https://www.diyaudio.com/forums/digital-source/323164-program-csra64215-rom-15-csra64xxx-v2.html)
+If you have problems updating a module with ROM v15, please have a look to this thread on [diyaudio](https://www.diyaudio.com/forums/digital-source/323164-program-csra64215-rom-15-csra64xxx-v2.html)
 
 In the [repository](https://github.com/Darmur/bassowl-lite/tree/master/bt-settings) it is included a configuration file for ROM V15 (any recent CSRA64215 has that version).
 The configuration file will configure GPIOs to match buttons and LEDs assignment of BassOwl-Lite PCB. It will also set I2S properly and the gain of the microphone. Just load the file with CSRA64xxx and CSRA63xxx Tools v2 and write new settings on the device.
